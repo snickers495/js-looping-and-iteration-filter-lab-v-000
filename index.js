@@ -5,6 +5,6 @@ function findMatching(drivers, name) {
 function fuzzyMatch(drivers, beginning) {
   return drivers.filter(word => word.slice(0, (beginning.length)) === beginning);
 }
-function matchName(drivers, beginning) {
-  return drivers.filter(word => word)
+function matchName(drivers, match) {
+  return drivers.filter(word => word === b)
 }
